@@ -298,7 +298,7 @@ input {
     color: #fff;
 }
 
-/*Cards - CSS*/
+/*cards - css*/
 .cards-heading {
     margin: 50px 0px 20px;
     font-weight: 600;
@@ -328,7 +328,7 @@ input {
     line-height: 1.6;
 }
 
-/*Content area - CSS*/
+/*content area - css*/
 .content-area-wrapper {
     /*height: 375px;*/
     background-size: contain;
@@ -387,7 +387,6 @@ input {
     border-radius: 20px;
 }
 
-/*area one - CSS*/
 .background-1 {
     background-color: #EDEDED;
 }
