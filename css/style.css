@@ -55,10 +55,6 @@ input {
 }
 
 /*nav css*/
-.offcanvas {
-    visibility: visible;
-}
-
 .modal-backdrop.fade{
     opacity: .5 !important;
 }
@@ -461,6 +457,7 @@ input {
         transition: transform .3s ease-in-out;
         top: 0;
         left: 0;
+        visibility: hidden;
         transform: translateX(-100%);
     }
 
@@ -575,6 +572,14 @@ input {
 
     .cards-heading {
         margin-top: 20px !important;
+    }
+}
+
+@media only screen and (min-width: 641px) {
+    .offcanvas {
+        transform: translateX(100%);
+        right: 0;
+        left: unset;
     }
 }
 

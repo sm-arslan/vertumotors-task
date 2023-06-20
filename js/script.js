@@ -9,6 +9,9 @@ $('.navbar-toggler').on('click', (e)=>{
     $('.modal-backdrop').addClass('d-show');
     //show menu
     changeCSS('.offcanvas', 'transform', 'none');
+    //
+    changeCSS('.offcanvas', 'visibility', 'visible');
+    
 });
 //click on hamburger icon to hide menu
 $('.offcanvas-close').on('click', (e)=>{
@@ -16,6 +19,8 @@ $('.offcanvas-close').on('click', (e)=>{
     $('.modal-backdrop').removeClass('d-show');
     //hide menu
     changeCSS('.offcanvas', 'transform', '');
+    //
+    changeCSS('.offcanvas', 'visibility', '');
 });
 
 
